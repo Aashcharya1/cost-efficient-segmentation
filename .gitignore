@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# DUTS download/cache: keep only the exact split manifest
+data/*
+!data/split.json
+
+# Training-only optimizer states and unused candidate weights
+params/**/resume.pt
+params/smoke_only.pt
+params/student/*.pt
+params/pruned/*.pt
+experiments/**/*.pt
+!experiments/baseline/model_fp16.pt
+!experiments/full_optimized.pt
+
+# Retired web examples and local diagnostics
+experiments/web_examples/
+experiments/*.png
+experiments/baseline/figures/
+experiments/__pycache__/
+report/annotation_review.png
+report/web_contact_sheet.png
+report/early_smoke_prediction.png
+
+# Logs, temporary files and local PDF previews
+*.log
+*.part
+*.partial
+tmp/
+.tools/

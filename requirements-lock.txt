@@ -1,0 +1,6 @@
+# Exact local environment used for the reported run.
+# The installed PyTorch build is 2.7.1+cu118; torch 2.7.1 CPU also runs inference.
+numpy==1.26.4
+opencv-python==4.11.0.86
+torch==2.7.1
+matplotlib==3.10.0

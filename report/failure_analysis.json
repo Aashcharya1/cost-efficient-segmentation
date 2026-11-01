@@ -1,0 +1,4 @@
+{
+ "sun_btplpskwjbfagbnm.jpg":"The annotation marks most of the building facade, whereas the prediction isolates patches around windows and a doorway. It fails to group the building as one large object. Local contrast around openings appears to dominate the limited semantic representation; this is a region-selection error as well as a boundary failure.",
+ "ILSVRC2012_test_00073683.jpg":"The annotation includes both dogs, but the prediction mainly selects dark facial patches and misses most of their light fur and bodies. The model responds to high-contrast facial texture rather than complete animal silhouettes. Limited semantic capacity and foreground/background colour similarity are plausible causes; the 160x160 internal image and small bottleneck also make fine fur boundaries difficult."
+}

@@ -1,0 +1,16 @@
+{
+  "candidates": [
+    "full_width_int8",
+    "half_width_float16",
+    "half_width_int8_convs",
+    "half_width_int8_except_head_context",
+    "half_width_int8_flip",
+    "threequarter_width_float16",
+    "threequarter_width_int8_convs",
+    "threequarter_width_int8_except_head_context",
+    "threequarter_width_int8_flip"
+  ],
+  "selection": "highest paired full-validation CES with CPU <=50ms",
+  "quality_data": "DUTS-TR validation only",
+  "timing_order": "rotate candidate order on each photo"
+}

@@ -1,0 +1,201 @@
+{
+  "protocol": {
+    "candidates": [
+      "full_width_int8",
+      "half_width_float16",
+      "half_width_int8_convs",
+      "half_width_int8_except_head_context",
+      "half_width_int8_flip",
+      "threequarter_width_float16",
+      "threequarter_width_int8_convs",
+      "threequarter_width_int8_except_head_context",
+      "threequarter_width_int8_flip"
+    ],
+    "selection": "highest paired full-validation CES with CPU <=50ms",
+    "quality_data": "DUTS-TR validation only",
+    "timing_order": "rotate candidate order on each photo"
+  },
+  "records": [
+    {
+      "n": 1056,
+      "miou": 0.8641435404525074,
+      "bf1": 0.6613638518402597,
+      "q": 0.8033096338688331,
+      "confusion": [
+        [
+          48299177,
+          1888694
+        ],
+        [
+          2170951,
+          16847194
+        ]
+      ],
+      "candidate": "full_width_int8",
+      "t_cpu_ms": 11.289654356060606,
+      "s_disk_bytes": 499693,
+      "ces": 0.7574629641504657
+    },
+    {
+      "n": 1056,
+      "miou": 0.844587648755759,
+      "bf1": 0.5915437017570712,
+      "q": 0.7686744646561526,
+      "confusion": [
+        [
+          47663004,
+          2524867
+        ],
+        [
+          2220573,
+          16797572
+        ]
+      ],
+      "candidate": "half_width_float16",
+      "t_cpu_ms": 6.880326704545454,
+      "s_disk_bytes": 255997,
+      "ces": 0.7428279772453638
+    },
+    {
+      "n": 1056,
+      "miou": 0.8443352584569679,
+      "bf1": 0.5911884395916499,
+      "q": 0.7683912127973724,
+      "confusion": [
+        [
+          47630360,
+          2557511
+        ],
+        [
+          2200198,
+          16817947
+        ]
+      ],
+      "candidate": "half_width_int8_convs",
+      "t_cpu_ms": 7.013494318181818,
+      "s_disk_bytes": 144297,
+      "ces": 0.7441912803018298
+    },
+    {
+      "n": 1056,
+      "miou": 0.8443398720123079,
+      "bf1": 0.5912199588854997,
+      "q": 0.7684038980742653,
+      "confusion": [
+        [
+          47634279,
+          2553592
+        ],
+        [
+          2203450,
+          16814695
+        ]
+      ],
+      "candidate": "half_width_int8_except_head_context",
+      "t_cpu_ms": 6.909919507575758,
+      "s_disk_bytes": 148213,
+      "ces": 0.744450173406443
+    },
+    {
+      "n": 1056,
+      "miou": 0.8553904895113837,
+      "bf1": 0.6107371944779518,
+      "q": 0.781994501001354,
+      "confusion": [
+        [
+          47885209,
+          2302662
+        ],
+        [
+          2077067,
+          16941078
+        ]
+      ],
+      "candidate": "half_width_int8_flip",
+      "t_cpu_ms": 13.805042613636363,
+      "s_disk_bytes": 144287,
+      "ces": 0.7361225154193981
+    },
+    {
+      "n": 1056,
+      "miou": 0.8522030939372515,
+      "bf1": 0.6056836941160509,
+      "q": 0.7782472739908912,
+      "confusion": [
+        [
+          47900101,
+          2287770
+        ],
+        [
+          2189045,
+          16829100
+        ]
+      ],
+      "candidate": "threequarter_width_float16",
+      "t_cpu_ms": 8.670691287878787,
+      "s_disk_bytes": 548029,
+      "ces": 0.7410869046791408
+    },
+    {
+      "n": 1056,
+      "miou": 0.8523640841677187,
+      "bf1": 0.6062646383387428,
+      "q": 0.7785342504190258,
+      "confusion": [
+        [
+          47886638,
+          2301233
+        ],
+        [
+          2172300,
+          16845845
+        ]
+      ],
+      "candidate": "threequarter_width_int8_convs",
+      "t_cpu_ms": 9.232954545454545,
+      "s_disk_bytes": 293561,
+      "ces": 0.7443325729466949
+    },
+    {
+      "n": 1056,
+      "miou": 0.8523922540625034,
+      "bf1": 0.6063122917355119,
+      "q": 0.7785682653644059,
+      "confusion": [
+        [
+          47884715,
+          2303156
+        ],
+        [
+          2169747,
+          16848398
+        ]
+      ],
+      "candidate": "threequarter_width_int8_except_head_context",
+      "t_cpu_ms": 9.336529356060606,
+      "s_disk_bytes": 302533,
+      "ces": 0.7438759904686146
+    },
+    {
+      "n": 1056,
+      "miou": 0.8613869681274675,
+      "bf1": 0.6253380382899643,
+      "q": 0.7905722891762165,
+      "confusion": [
+        [
+          48172166,
+          2015705
+        ],
+        [
+          2143641,
+          16874504
+        ]
+      ],
+      "candidate": "threequarter_width_int8_flip",
+      "t_cpu_ms": 18.25875946969697,
+      "s_disk_bytes": 293551,
+      "ces": 0.7272997537793267
+    }
+  ],
+  "selected": "full_width_int8"
+}

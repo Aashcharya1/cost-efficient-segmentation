@@ -1,0 +1,81 @@
+{
+  "user_statement": "I took these around the college, under daylight and night; stall inside college.",
+  "camera_originals_available": false,
+  "source_preservation": "WhatsApp received JPEG bytes preserved unchanged; source filenames and SHA256 recorded",
+  "photos": [
+    {
+      "name": "stall_chair",
+      "original_filename": "WhatsApp Image 2026-11-01 at 6.03.19 PM (1).jpeg",
+      "renamed_file": "stall_chair.jpg",
+      "sha256": "9a8cb6cd9712b2558d49b9018c7048eedf125c5326c8e2dc6fd2ba4c4f30f92c",
+      "object": "Central plastic chair, excluding stall merchandise and other chairs",
+      "provenance": "User confirms personally photographed around college; supplied as WhatsApp JPEG",
+      "lighting": "Collection contains daylight and night photos, user confirmed; exact per-image lighting not recorded",
+      "conditions_observed": [
+        "cluttered background",
+        "far relative to close-ups",
+        "partial occlusion by foreground merchandise"
+      ]
+    },
+    {
+      "name": "body_wash_bottle",
+      "original_filename": "WhatsApp Image 2026-11-01 at 6.03.19 PM (2).jpeg",
+      "renamed_file": "body_wash_bottle.jpg",
+      "sha256": "940c3db77ed4879acb7f6cce2a3d3df013272a7f9eafc5e45e1753c09e694567",
+      "object": "Body-wash bottle including cap, excluding hand",
+      "provenance": "User confirms personally photographed around college; supplied as WhatsApp JPEG",
+      "lighting": "Collection contains daylight and night photos, user confirmed; exact per-image lighting not recorded",
+      "conditions_observed": [
+        "near object"
+      ]
+    },
+    {
+      "name": "bicycle",
+      "original_filename": "WhatsApp Image 2026-11-01 at 6.03.19 PM.jpeg",
+      "renamed_file": "bicycle.jpg",
+      "sha256": "91629e93ebbc23df3312646b2474face920b5691fa223892163d7a148145e0b9",
+      "object": "Bicycle including tyres, frame and visible spokes; open holes are background",
+      "provenance": "User confirms personally photographed around college; supplied as WhatsApp JPEG",
+      "lighting": "Collection contains daylight and night photos, user confirmed; exact per-image lighting not recorded",
+      "conditions_observed": [
+        "full object view"
+      ]
+    },
+    {
+      "name": "giraffe_toy",
+      "original_filename": "WhatsApp Image 2026-11-01 at 6.03.20 PM (1).jpeg",
+      "renamed_file": "giraffe_toy.jpg",
+      "sha256": "bd5eb36e46a74e8b85451420bed56cdee0d51a8a35d03c973670ef965b26d1ff",
+      "object": "Giraffe soft toy, excluding paper tag and hand",
+      "provenance": "User confirms personally photographed around college; supplied as WhatsApp JPEG",
+      "lighting": "Collection contains daylight and night photos, user confirmed; exact per-image lighting not recorded",
+      "conditions_observed": [
+        "near object"
+      ]
+    },
+    {
+      "name": "turtle_lamp",
+      "original_filename": "WhatsApp Image 2026-11-01 at 6.03.20 PM (2).jpeg",
+      "renamed_file": "turtle_lamp.jpg",
+      "sha256": "57ca3d5d49e3a564dc443c099be0cc8212b23210bf1fdd7ae43fe9ac4a55bc65",
+      "object": "Complete turtle lamp including shade, excluding cast shadow",
+      "provenance": "User confirms personally photographed around college; supplied as WhatsApp JPEG",
+      "lighting": "Collection contains daylight and night photos, user confirmed; exact per-image lighting not recorded",
+      "conditions_observed": [
+        "near object"
+      ]
+    },
+    {
+      "name": "campus_cat",
+      "original_filename": "WhatsApp Image 2026-11-01 at 6.03.20 PM.jpeg",
+      "renamed_file": "campus_cat.jpg",
+      "sha256": "b66de1feac07b8ddfd73d6b864fb9e492f9ebe99b954c46a05ba81e9f03abbe1",
+      "object": "Visible cat, excluding cast shadow and background",
+      "provenance": "User confirms personally photographed around college; supplied as WhatsApp JPEG",
+      "lighting": "Collection contains daylight and night photos, user confirmed; exact per-image lighting not recorded",
+      "conditions_observed": [
+        "partial image-edge truncation"
+      ]
+    }
+  ]
+}

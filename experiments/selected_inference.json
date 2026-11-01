@@ -1,0 +1,29 @@
+{
+  "config": {
+    "input_size": 160,
+    "flip": false,
+    "logit_bias": 0.0,
+    "torchscript": true
+  },
+  "validation": {
+    "n": 1056,
+    "miou": 0.864347694288434,
+    "bf1": 0.6615408698839274,
+    "q": 0.8035056469670819,
+    "confusion": [
+      [
+        48278109,
+        1909762
+      ],
+      [
+        2146152,
+        16871993
+      ]
+    ],
+    "input_size": 160,
+    "flip": false,
+    "logit_bias": 0.0,
+    "estimated_cpu_ms": 9.765625,
+    "validation_ces_estimate": 0.7532348391065513
+  }
+}
